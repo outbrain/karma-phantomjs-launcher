@@ -14,7 +14,7 @@ var phantomJSExePath = function () {
   // Using the cmd as the process to execute causes problems cleaning up the processes
   // so we walk from the cmd to the phantomjs.exe and use that instead.
 
-  var phantomSource = require('phantomjs').path
+  var phantomSource = require('phantomjs2').path
 
   if (path.extname(phantomSource).toLowerCase() === '.cmd') {
     return path.join(path.dirname(phantomSource), '//node_modules//phantomjs2//lib//phantom//bin//phantomjs.exe')
