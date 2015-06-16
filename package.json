@@ -21,7 +21,7 @@
   },
   "peerDependencies": {
     "karma": ">=0.9",
-    "phantomjs": "*"
+    "phantomjs2": "*"
   },
   "license": "MIT",
   "devDependencies": {
